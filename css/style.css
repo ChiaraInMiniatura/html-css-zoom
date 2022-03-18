@@ -1,0 +1,17 @@
+/* HEADER */
+
+header{
+  justify-content: flex-end;
+}
+/* MAIN */
+
+.img-box{
+  width: 200px;
+  height: 130px;
+}
+
+/* FOOTER */
+
+footer{
+  justify-content: space-between;
+}
