@@ -6,15 +6,14 @@
   flex-wrap: wrap;
 }
 
-.container{
-  width: 95vw;
-  height: 65vh;
-  margin: 20px auto;
-  overflow: auto;
+.active{
+  color:rgb(74, 198, 1);
 }
-.h10{
-  height: 10vh;
+
+.h5{
+  height: 5vh;
 }
+
 .h15{
   height: 15vh;
 }
@@ -23,12 +22,5 @@
 .debug{
   background-color: rgba(255, 0, 0, .2);
   border: 1px solid rgb(224, 216, 216);
-}
-
-.h10{
-  height: 10vh;
-}
-.h15{
-  height: 15vh;
 }
 

@@ -2,12 +2,21 @@
 
 header{
   justify-content: flex-end;
+  padding: 10px;
 }
+
+header span{
+  background-color: rgb(74, 74, 74);
+  padding: 5px;
+  border-radius: 7px;
+  margin: 3px;
+}
+
 /* MAIN */
 
-.container{
+.container {
   width: 95vw;
-  height: 65vh;
+  height: 70vh;
   margin: 20px auto;
   overflow: auto;
   justify-content: center;
@@ -25,7 +34,6 @@ header{
   bottom: 0;
   left: 0;
   background-color: rgba(128, 128, 128, 0.8);
-  color: white;
   font-size: 18px;
 
 }
@@ -33,5 +41,56 @@ header{
 /* FOOTER */
 
 footer{
+  background-color: rgb(34, 34, 34);
   justify-content: space-between;
+  align-items: center;
+  text-align: center;
+
+}
+footer .fa-solid{
+  font-size: 30px;
+  margin-bottom: 7px; 
+}
+/* content-left */
+
+.content-left .fa-chevron-up{
+  font-size: 15px;
+  margin-left: 10px;
+}
+
+.microfono,
+.video{
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  width: 80px;
+}
+
+.content-left p{
+  height: 25%;
+}
+
+/* content-center */
+
+.content-center .fa-chevron-up{
+  font-size: 15px;
+}
+
+.f-menu{
+  margin:0 10px;
+}
+
+.f-menu.chevron {
+  align-items: center;
+}
+
+/* btn-end */
+
+.btn-end{
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(74, 74, 74);
+  color: red;
+  height: 100%;
+  width: 120px;
 }
